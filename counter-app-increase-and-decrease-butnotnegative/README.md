@@ -1,12 +1,33 @@
-# React + Vite
+"Counter App - Increase and Decrease Numbers/Counter But Not Go Negative" 
+# Counter App (Increase & Decrease but not Negative)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a simple React counter application where:
+- You can **increase** the counter.
+- You can **decrease** the counter, but it will **never go below 0**.
+- You can **reset** the counter back to 0.
 
-Currently, two official plugins are available:
+## How to Run
+1. Navigate into this folder:
+   ```bash
+   cd counter-app-increase-and-decrease-butnotnegative
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+Run the development server:
+
+bash
+
+npm run dev
+
+
+Features
+Uses React useState hook.
+
+Prevents negative values in the counter.
+
+Clean, beginner-friendly code.
+
