@@ -1,33 +1,53 @@
-"Counter App - Increase and Decrease Numbers/Counter But Not Go Negative" 
-# Counter App (Increase & Decrease but not Negative)
+# [Project Name]
 
 ## Description
-This is a simple React counter application where:
-- You can **increase** the counter.
-- You can **decrease** the counter, but it will **never go below 0**.
-- You can **reset** the counter back to 0.
+Briefly explain what the app does.  
+(Example: "A simple counter app built with React where users can increase, decrease, and reset the counter.")
 
-## How to Run
-1. Navigate into this folder:
+## Folder Structure
+```
+project-folder/
+│── public/         # Static assets
+│── src/            # React source code
+│   ├── App.jsx     # Main component
+│   ├── main.jsx    # Entry point
+│   ├── index.css   # Styles
+│── package.json    # Dependencies and scripts
+│── vite.config.js  # Vite config
+│── README.md       # Project documentation
+```
+
+## Features
+- Feature 1
+- Feature 2
+- Feature 3
+
+## Installation
+1. Navigate into the project folder:
    ```bash
-   cd counter-app-increase-and-decrease-butnotnegative
-Install dependencies:
+   cd project-folder
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-bash
-
-
-npm install
+## Usage
 Run the development server:
-
-bash
-
+```bash
 npm run dev
+```
 
+Then open the URL shown in your terminal (usually `http://localhost:5173`).
 
-Features
-Uses React useState hook.
+## Technologies Used
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-Prevents negative values in the counter.
+## Screenshots (Optional)
+_Add a screenshot here if needed._
 
-Clean, beginner-friendly code.
-
+## License
+This project is for learning purposes. No license required.
